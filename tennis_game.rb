@@ -1,8 +1,8 @@
 class TennisGame
   require_relative 'player'
   def initialize(player1_name, player2_name)
-    @player1 = ::Player.new(player1_name,0,"Points")
-    @player2 = ::Player.new(player2_name,0,"Points")
+    @player1 = Player.new(player1_name,0,"Points")
+    @player2 = Player.new(player2_name,0,"Points")
   end
 
   # Asks for the next point winner until Game is won by one of the players
