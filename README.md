@@ -1,4 +1,4 @@
-* Has 3 main files *
+# Has 3 main files
 1. tennis_game.rb
 2. play_tennis_game.rb
 3. test_tennis_game.rb
@@ -8,10 +8,11 @@ Gem test-unit is included for testing
 All the game logic are in file: tennis_game.rb
 
 
-* To run the game *
+# To run the game
 
 In the main game folder
-# ruby play_tennis_game.rb
+
+    $ ruby play_tennis_game.rb
 
 Gives a prompt asking for the next point winner
 Options: 1 for Player1, 2 for Player2
@@ -26,9 +27,14 @@ Options: 1 for Player1, 2 for Player2
 
 
 
-* For unit testing *
-# ruby test_tennis_game.rb
+# For unit testing
+
+In the main game folder
+
+    $ ruby test_tennis_game.rb
 
 Has Two Test Cases
-1. Player 1 wins after 2 Deuces
-2. Player 2 wins with Player 1 score on 30
+
+  1. Player 1 wins after 2 Deuces
+
+  2. Player 2 wins with Player 1 score on 30
